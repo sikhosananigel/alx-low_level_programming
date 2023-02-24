@@ -6,10 +6,10 @@
  * Return: 1 for upper and 0 for lower
  * _isupper - a function that checks for uppercase
  */
-int _isupper(int x)
+int _isupper(int c)
 {
 
-	if (x >= 65 && x <= 98)
+	if (c >= 65 && c <= 90)
 	{
 		return (1);
 	}
